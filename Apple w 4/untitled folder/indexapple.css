@@ -5,11 +5,8 @@ body {
 }
 
 .all {
-    flex-direction: column;
-    
     justify-content: center;
     align-items: center;
-    gap: 12px;
 
 }
 
@@ -23,7 +20,7 @@ body {
     background-color: rgba(240, 248, 255, 0.974);
     background-repeat: no-repeat;
     justify-self: center;
-    /* position: fixed; */
+    position: fixed;
     flex-direction: column;
     width: 1920px;
     align-items: center;
@@ -58,8 +55,11 @@ body {
     display: none;
 }
 
-.tam11 {
+.tam22 {
+
     font-size: 14px;
+    justify-items: center;
+    justify-content: center;
     justify-self: center;
 
 }
@@ -106,7 +106,7 @@ body {
     justify-content: space-between;
     position: absolute;
     box-sizing: border-box;
-    top: 90px;
+    top: 75px;
 }
 
 .titlebox3 {
@@ -130,7 +130,7 @@ body {
 }
 
 .bigimageutas {
-    background-image: url(./iphone16proutas.jpg);
+    background-image: url(./utastop.jpg);
     display: none;
 }
 
@@ -143,7 +143,7 @@ body {
 }
 
 .bigimageutas2 {
-    background-image: url(./iphone16utas.jpg);
+    background-image: url(./ipadutas.jpg);
     display: none;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .bigimageutas3 {
-    background-image: url(./ipadutas.jpg);
+    background-image: url(./iphone16utas.jpg);
     display: none;
 }
 
@@ -194,7 +194,7 @@ body {
 
 
 .bigimage3 {
-    width: 100%;
+    width: 100%px;
     height: 692px;
     position: relative;
     background-position: center;
@@ -227,11 +227,9 @@ body {
 .big {
     font-family: Inter;
     flex-direction: column;
-    display: flex;
     color: white;
-    gap: 12px;
-
-
+    gap: 16px;
+    padding: 60px;
 
 }
 
@@ -276,6 +274,15 @@ body {
 }
 
 /* pppppppppppppppppppppppppppppppppppppppppppppppppppppp */
+
+/* .learnmore3 {
+    font-size: 16px;
+    padding: 12px 20px;
+    background-color: aqua;
+    border: 1px;
+    border-radius: 999px;
+    color: black;
+} */
 
 .add {
     font-size: 16px;
@@ -338,6 +345,12 @@ body {
     display: none;
 }
 
+/* .small1a {
+    background-image: url(./midsmall1.jpg);
+
+} */
+
+
 
 /* <!-- ooooooooooooooo --> */
 .small2 {
@@ -349,6 +362,38 @@ body {
     background-image: url(./midsmall2.jpg);
     display: none;
 }
+
+/* .titlebox9 {
+    flex-direction: column;
+    width: 405px;
+    height: 172px;
+    justify-self: center;
+    justify-items: center;
+    justify-content: space-between;
+    position: absolute;
+    box-sizing: border-box;
+    top: 350px;
+}
+
+.bigfont9 {
+    font-size: 36px;
+    margin: 0%;
+    align-self: stretch;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.smallfont9 {
+    font-size: 18px;
+    margin: 0%;
+    color: white;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+
+} */
 
 /* <!-- ooooooooooooooo --> */
 
@@ -403,6 +448,7 @@ body {
     background-position: center;
     background-size: cover;
     /* gap:12px; */
+    margin-top: 12px;
     box-sizing: border-box;
     background-repeat: no-repeat;
 }
@@ -419,7 +465,7 @@ body {
 }
 
 .smallbackadd {
-    width: 366px;
+    width: 336px;
     height: 490px;
     /* gap: 12px; */
     background-position: center;
@@ -503,7 +549,7 @@ body {
 
 .titleboxsmall2a {
     flex-direction: column;
-    width: 300px;
+    width: 405px;
     height: 172px;
     justify-self: center;
     justify-items: center;
@@ -516,7 +562,7 @@ body {
 
 .titleboxsmall346 {
     flex-direction: column;
-    width: 300px;
+    width: 405px;
     height: 172px;
     justify-self: center;
     justify-items: center;
@@ -534,7 +580,7 @@ body {
 
 .titleboxsmall1 {
     flex-direction: column;
-    width: 300px;
+    width: 405px;
     height: 172px;
     justify-self: center;
     justify-items: center;
@@ -548,7 +594,7 @@ body {
 
 .titleboxsmall5 {
     flex-direction: column;
-    width: 300px;
+    width: 405px;
     height: 172px;
     justify-self: center;
     justify-items: center;
@@ -676,39 +722,39 @@ body {
 
 }
 
-.qa {
+.a {
     background-image: url(./napoleon.jpg);
 }
 
-.qb {
+.b {
     background-image: url(./bad-monkey.jpg);
 }
 
-.qc {
+.c {
     background-image: url(./lady-in-the-lake.jpg);
 }
 
-.qd {
+.d {
     background-image: url(./season-pass.jpg);
 }
 
-.qe {
+.e {
     background-image: url(./pachinko.jpg);
 }
 
-.qf {
+.f {
     background-image: url(./pressumed-innocent.jpg);
 }
 
-.qg {
+.g {
     background-image: url(./k-pop-idols.jpg);
 }
 
-.qh {
+.h {
     background-image: url(./instigators.jpg);
 }
 
-.qi {
+.i {
     background-image: url(./baseball.jpg);
 }
 
@@ -775,7 +821,7 @@ body {
 
 .scroll-areaqq {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     overflow: hidden;
     width: 1920px;
     height: 236px;
@@ -783,7 +829,7 @@ body {
 
 .scroll-areaqq2 {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     overflow: hidden;
     width: 768px;
     height: 161px;
@@ -792,7 +838,7 @@ body {
 
 .scroll-areaqq3 {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     overflow: hidden;
     width: 390px;
     height: 134px;
@@ -883,108 +929,39 @@ body {
     background-image: url(./muur2.jpg);
 }
 
-body{flex-direction: column;
-display: flex;
-gap: 12px;}
-.wall{ flex-direction: column;
-display: flex;
-gap: 12px;}
+
 
 
 @media (max-width: 768px) {
-    .NAV {
-        max-width: 768px;
-    }
-    body{flex-direction: column;
-display: flex;
-gap: 12px;}
-.wall{ flex-direction: column;
-display: flex;
-gap: 12px;}
-.all{flex-direction: column;
-display: flex;
-gap: 12px;}
-
-    /* .bigimageutasadd2 {
-        padding-bottom: 200px;
-        width: 390px;
-        height: 500px;
-        background-size: cover;
-        position: relative;
-        background-position: center;
-        justify-self: center;
-
-        align-items: center;
-        justify-content: center;
-
-    } */
-
-    .tam22 {
-        font-size: 14px;
-        justify-self: center;
-        width: 768px;
-    }
-
-    .wall {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-    }
-
-    .bigimage2 {
-        width: 100%;
-        height: 650px;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .titlebox3 {
-        align-content: start;
-        top: 40px;
-    }
-
-    .titlebox {
-        align-content: start;
-        top: 40px;
-    }
-
-    .titlebox11 {
-        display: block;
-        top: 100px;
-    }
-
-    .midsmall777 {
-        width: px;
-        height: 490px;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        /* gap:12px; */
-        box-sizing: border-box;
-        background-repeat: no-repeat;
-        display: block;
-    }
-
-    .scroll-trackqq {
-        display: flex;
-        gap: 16px;
-        animation: s 8s linear infinite;
-    }
 
 
 
     .scroll-areaqq {
+        display: none;
+    }
+
+    .scroll-areaqq2 {
         display: block;
-        width: 768px;
-        height: 161px;
+    }
+
+    .scroll-areaqq3 {
+        display: none;
     }
 
     .moviepp {
-        display: block;
-        width: 286px;
-        height: 161px;
+        display: none;
     }
+
+    .moviepp2 {
+        display: block;
+    }
+
+    .moviepp3 {
+        display: none;
+    }
+
+
+
 
 
     .scroll-all {
@@ -1006,38 +983,24 @@ gap: 12px;}
 
     .titleboxsmall1 {
         display: block;
-        top: 300px;
 
     }
 
     .bigfont1 {
         display: block;
-        top: 100px;
-    }
-
-    .bigfont5 {
-        font-size: 30px;
-
     }
 
     .smallfont1 {
         display: block;
-        padding: 0px 0px 0px 0px;
-        width: 280px;
     }
 
     .titleboxsmall2a {
         display: block;
     }
 
-    .titleboxsmall346 {
-        top: 25px;
-        display: block;
-    }
-
     .selectbox2a {
         display: none;
-
+        
     }
 
     /* .learnmorea{ display: none;}
@@ -1050,28 +1013,12 @@ gap: 12px;}
         display: none;
     }
 
-    .smallfont {
-        font-size: 22px;
-    }
-
-    .smallfont3 {
-        font-size: 22px;
-    }
-
-    .bigfont {
-        font-size: 42px;
-    }
-
-    .bigfont3 {
-        font-size: 42px;
-    }
-
     /* .nav {
         justify-content: space-between;
         display: flex;
     } */
     .nav1 {
-        max-width: 768px;
+        width: 768px;
         justify-content: space-between;
 
     }
@@ -1103,7 +1050,6 @@ gap: 12px;}
 
     .bigimaget3 {
         display: block;
-        height: 650px;
     }
 
     .bigimageback3 {
@@ -1167,87 +1113,10 @@ gap: 12px;}
     .bigfont9back {
         display: block;
     }
-
 }
 
 @media (max-width: 390px) {
-    .NAV {
-        max-width: 390px;
-    }
-body{flex-direction: column;
-display: flex;
-gap: 12px;}
-.wall{ flex-direction: column;
-display: flex;
-gap: 12px;}
 
-    .smallbackadd {
-        width: 390px;
-        height: 490px;
-        /* gap: 12px; */
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-sizing: border-box;
-
-    }
-
-    .learnmore {
-        font-size: 14px;
-    }
-
-    .buy {
-        font-size: 14px;
-    }
-
-    .tam33 {
-        font-size: 14px;
-        justify-self: center;
-        max-width: 390px;
-    }
-
-    .titlebox22 {
-        display: block;
-        top: 420px;
-    }
-
-    .smallfont {
-        font-size: 18px;
-    }
-
-    .smallfont3 {
-        font-size: 18px;
-    }
-
-    .bigfont {
-        font-size: 30px;
-    }
-
-    .bigfont3 {
-        font-size: 30px;
-    }
-
-    .scroll-trackqq {
-        display: flex;
-        gap: 6px;
-        animation: s 5s linear infinite;
-    }
-
-    .bigimage2 {
-        width: 390px;
-        height: 500px;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .bigimage3 {
-        width: 390px;
-        height: 500px;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-    }
 
     .scroll-all2 {
         display: none;
@@ -1261,8 +1130,6 @@ gap: 12px;}
     .smallimage {
         flex-direction: column;
     }
-
-
 
     .bigimaget {
         display: none;
@@ -1293,21 +1160,31 @@ gap: 12px;}
     }
 
     /* <!--4444444444444444444444444444444444444444444444 --> */
-    .scrollcenter {
-        gap: 8px;
-    }
 
     .scroll-areaqq {
+        display: none;
+    }
+
+    .scroll-areaqq2 {
+        display: none;
+    }
+
+    .scroll-areaqq3 {
         display: block;
-        width: 390px;
-        height: 134px;
     }
 
     .moviepp {
-        display: block;
-        width: 238px;
-        height: 134px;
+        display: none;
     }
+
+    .moviepp2 {
+        display: none;
+    }
+
+    .moviepp3 {
+        display: block;
+    }
+
 
 
 }
