@@ -40,10 +40,8 @@ width: 100%;}
 }
 
 .nav1 {
-
     box-sizing: border-box;
     justify-content: center;
-    
     gap: 24px;
     height: 44px;
     font-family: Inter;
@@ -53,7 +51,6 @@ width: 100%;}
     margin-top: 0;
     justify-self: center;
 }
-
 .nav2 {
     display: flex;
     align-items: center;
@@ -195,6 +192,7 @@ background-size: cover;
 .se2 {
     display: flex;
     gap: 20px;
+    overflow: scroll;
 }
 
 .sec2img1 {
@@ -239,6 +237,7 @@ background-size: cover;
     height: 558px;
     padding: 0px 140px;
     gap: 20px;
+    
 }
 
 .sec4 {
@@ -293,6 +292,7 @@ background-clip: text;
 .se3 {
     display: flex;
     gap: 20px;
+    overflow: scroll;
 }
 
 .se3a {
@@ -452,7 +452,7 @@ background-clip: text;
     gap: 20px;
     width: 1640px;
     height: 500px;
-    padding-left: 140px;
+    overflow: scroll;
 }
 
 .sec5img1 {
@@ -565,8 +565,10 @@ background-clip: text;
     padding-left: 30px;
     font-family: Inter;
 }
-
+.SECTION{ }
+.SECTION2{ padding: 0px 140px 0px 140px;}
 .SECTIONALL {
+    justify-content: center;
    display: flex;
    flex-direction: column;
    gap: 60PX;
